@@ -2,7 +2,7 @@ baseurl: https://Vinnie-Palazeti.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Vincenzo Palazeti
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -32,7 +32,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: Hey welcome.
         avatar:
             local: true
             src: img/avatar.png

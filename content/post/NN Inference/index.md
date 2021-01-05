@@ -46,7 +46,7 @@ The covariate ranges are wildly different, so prior to modeling I scaled the pre
 
 and the visual output
 
-![VEC Visual](VEC_change_all_row.jpg)
+![VEC Visual](VEC_all_rows.jpg)
 
 What I love about this is how incredibly interpretable it is. The positive effect alcohol & fixed acidity is clearly stated. Nice.
 

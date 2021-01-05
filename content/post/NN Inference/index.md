@@ -32,7 +32,7 @@ Krause (2016) implements a VEC, overlayed with other graphics, for a classificat
 
 There are two ways to find the probability at each input values. The formula recommended by Krause et al. is:
 
-![Image 1](Partial_Depencence_Form.png)
+![Image 1](Partial_Dependence_Form.jpg)
 
 where *pred* is the prediction function, x_i is the input vector, v is the input value, and N is the number of rows in the design matrix. Every value for the feature in question is changed to v, then the prediction function is used on the new design matrix, and finally predictions are averaged. This process is iterated over a specific interval of v's, usually the range of the feature.
 

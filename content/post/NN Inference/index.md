@@ -42,17 +42,17 @@ I implemented both versions of the Variable Effect Curve in python using the Win
 
 The covariate ranges are wildly different, so prior to modeling I scaled the predictors to [0,1]. Then, to predict over their "range", I used 30 equally spaced values as inputs. I did this individually for each predictor. Here is the code for the former approach, which changes every value of a feature in the design matrix to one of the 30 "v" values
 
-(VEC change every row)
+![VEC Code](VEC_change_every_row.jpg)
 
 and the visual output
 
-(VEC change all row).png
+![VEC Visual](VEC_change_all_row.jpg)
 
 What I love about this is how incredibly interpretable it is. The positive effect alcohol & fixed acidity is clearly stated. Nice.
 
 Here is the code for predicting on the average value of each input, only iterively altering a single feature over the equal spaced range of v
 
-(VEC AVERAGE CODE)
+![VEC Code](VEC_AVERAGE_CODE.jpg)
 
 and the visual
 

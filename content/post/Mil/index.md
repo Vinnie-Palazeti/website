@@ -1,6 +1,6 @@
 +++
 author = "Vinnie"
-title = "Milwaukee Assessment Project"
+title = "Milwaukee Assessment"
 date = "2020-01-01"
 tags = [
     "inference",

@@ -44,7 +44,7 @@ The covariate ranges are wildly different, so prior to modeling I scaled the pre
 
 ![VEC Code](VEC_change_every_row.jpg)
 
-and the visual output
+and the visual output (click image for higher quality)
 
 ![VEC Visual](VEC_all_rows.jpg)
 
@@ -56,17 +56,17 @@ Here is the code for predicting on the average value of each input, only iterive
 
 and the visual
 
-(VEC AVERAGE PIC)
+![VEC Visual](VEC_with_Ave.jpg)
 
 The general trends remain true, though the predictions with this formula are more irratic. 
 
 An issue with VECs used with deep nn models is the stocastic optimization function. Stocastic Gradient Descent or ADAM will usually not produce the same node weights in consecutive runs. This means that our graphs could look different, sometimes wildly different. Here is another VEC graph using the latter formula from above
 
-(AVERAGE DIFFERENT)
+![VEC Visual](VEC_Ave_diff.jpg)
 
 This is no bueno. We see large shifts from the previous graph, especially at the ends. However, using the former formula, where we change every row of the design matrix to the value v, the outcomes are far more consistent
 
-(VEC EVERY ROW BUT EH)
+![VEC Visual](VEC_all_row_diff.jpg)
 
 Another issue is the lack of any actual statistical tests. There are no distributions. Each value of x has a single prediction. There is a bootstrap opportunity here!
 

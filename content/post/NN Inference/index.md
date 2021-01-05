@@ -12,7 +12,7 @@ categories = [
     "inference",
     "machine learning",
 ]
-image = "pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
+image = "header.jpg"
 +++
 
 

@@ -1,15 +1,10 @@
 +++
 title = "About"
-description = "Me!"
-date = "2020-01-01"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Vinnie"
 license = "CC BY-NC-ND"
 lastmod = "2020-01-01"
 +++
-
-
-Hey Folks
 
 My name is Vincenzo Palazeti. Most people call me Vinnie. I recently received a Masters in Applied Statistics from Loyola University Chicago. 
 

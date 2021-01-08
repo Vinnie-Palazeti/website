@@ -21,10 +21,10 @@ The population stratification in Milwaukee is striking. These images are almost 
 
 ![Milwaukee Black Population](Black_pop.jpg)
 
-![Milwaukee White Population](White_pop.jpg)
+![Milwaukee White Population](His_pop.jpg)
 
 Just below the mid section, there is a circular area that is dark blue in both plots. This is where the Hispanic population lives. 
 
-![Milwaukee Hispanic Population](His_pop.jpg)
+![Milwaukee Hispanic Population](White_pop.jpg)
 
 

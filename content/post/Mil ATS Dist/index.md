@@ -19,9 +19,9 @@ While playing around with data visualizations I noticed something. The distribut
 
 ![ATS Ratio](ATS_Ratio_Dist.jpg)
 
-If you recall, in my previous post I mentioned that I snipped observations outside the 1.5 x IQR (inter-quartile range). This made the data look very normal, like a pretty bell curve.
+If you recall, in my previous post I mentioned that I snipped observations outside the 1.5 x IQR (inter-quartile range). This made the data look very normal, a pretty bell curve.
 
-Because I grabbed data from the American Community Survey (ACS), I could determine the demographics of observations. I plotted the distribution of ATS ratios for house sales in majority black neighborhoods, which looks like this:
+Because I grabbed data from the American Community Survey (ACS), I could determine the neighborhood demographics of observations. I plotted the distribution of ATS ratios for house sales in majority black neighborhoods, which looks like this:
 
 ![ATS Ratio](Black_ATS_Ratio_Dist.jpg)
 
@@ -35,9 +35,9 @@ Ok. It's visually obvious that these distributions are different, but how can we
 
 I created an indicator variable. If a home sale had an Assessment to Sale ratio one standard deviation below the average I assigned it a 1. This indicator is our response! We now have a (0,1) outcome, so Logistic Regression is viable! Cool.
 
-As in the previous analysis, I used Hierarchical Mixed Modeling to capture the variance in the spatially correlated data, i.e. Census Tract was used as a Random Effect. Also, I did propsensity score matching to compare homes in majority black neighborhoods to similar homes in non-majoirty black neighborhoods. This is a quasi-experimental setup that makes observational studies more robust.
+As in the previous analysis, I used Hierarchical Mixed Modeling to capture the variance in the spatially correlated data, i.e. Census Tract was used as a Random Effect. Also, I did propensity score matching to compare homes in majority black neighborhoods to similar homes in non-majority black neighborhoods. This is a quasi-experimental setup that makes observational studies more robust.
 
-The results were wild. In the final model, which controls for the most tract-level & home-level characteristics possible, a one standard deviation increase in the Percent Black Population corresponded to a 367% increase in the odds of an ATS ratio one standed below the mean. 
+The results were wild. In the final model, which controls for the most tract-level & home-level characteristics possible, a one standard deviation increase in the Percent Black Population corresponded to a 367% increase in the odds of an ATS ratio one standard deviation below the mean. 
 
 That's one of the largest odds ratios (4.67) I have ever seen in real data. I have never seen an analysis like this, so if anyone knows a fatal statistical error I have committed email me!
 
